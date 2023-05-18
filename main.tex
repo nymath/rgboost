@@ -1,0 +1,32 @@
+\documentclass{article}
+\textwidth 6.5in \oddsidemargin .06in \evensidemargin .06in
+\textheight 8.5in \topmargin -.6in
+\include{config/config}
+\usepackage{CJK}
+
+
+
+\begin{document}
+\title{RGBoost: A revised gradient boosting machine
+\footnote{Nanyi Zhang is at School of Insurance and Economics, University of International Business and Economics, Beijing 100029, China.
+		} }
+\author{ Nanyi Zhang\footnote{Corresponding author. Email: nymath@163.com}}
+\date{}
+\maketitle
+
+\begin{abstract}
+
+This paper presents a novel variant of the gradient boosting algorithm, termed RGBoost, that enhances performance by modifying the negative gradient in every iteration. We begin by offering a precise definition of the gradient, drawing upon the Riesz representation theorem. We then establish that in the conventional gradient boosting algorithm, the gradient vector exhibits bias when the hypothesis space is a Reproducing Kernel Hilbert Space (RKHS). By rectifying this bias, the adjusted gradient vector provides a more accurate approximation of the gradient function. Conclusively, through a series of tests on simulated data, we show that our revised model significantly surpasses the performance of the traditional model.
+ \\
+{\bf Keywords}: Gradient boosting, Reproducing Kernel Hilbert Space(RKHS), Function Approximation, investment
+\end{abstract}
+
+\include{chapter/introduction}
+\include{chapter/model}
+\include{chapter/simulated}
+\include{chapter/readworld}
+\include{chapter/conclusion}
+
+\bibliographystyle{abbrv}
+\bibliography{ref}
+\end{document}

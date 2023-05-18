@@ -1,0 +1,53 @@
+\begin{thebibliography}{1}
+
+\bibitem{breiman2001random}
+L.~Breiman.
+\newblock Random forests.
+\newblock {\em Machine learning}, 45:5--32, 2001.
+
+\bibitem{chen2015xgboost}
+T.~Chen, T.~He, M.~Benesty, V.~Khotilovich, Y.~Tang, H.~Cho, K.~Chen,
+  R.~Mitchell, I.~Cano, T.~Zhou, et~al.
+\newblock Xgboost: extreme gradient boosting.
+\newblock {\em R package version 0.4-2}, 1(4):1--4, 2015.
+
+\bibitem{freund1996experiments}
+Y.~Freund, R.~E. Schapire, et~al.
+\newblock Experiments with a new boosting algorithm.
+\newblock In {\em icml}, volume~96, pages 148--156. Citeseer, 1996.
+
+\bibitem{friedman2001greedy}
+J.~H. Friedman.
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock {\em Annals of statistics}, pages 1189--1232, 2001.
+
+\bibitem{hoffmann2004combining}
+F.~Hoffmann.
+\newblock Combining boosting and evolutionary algorithms for learning of fuzzy
+  classification rules.
+\newblock {\em Fuzzy Sets and Systems}, 141(1):47--58, 2004.
+
+\bibitem{ke2017lightgbm}
+G.~Ke, Q.~Meng, T.~Finley, T.~Wang, W.~Chen, W.~Ma, Q.~Ye, and T.-Y. Liu.
+\newblock Lightgbm: A highly efficient gradient boosting decision tree.
+\newblock {\em Advances in neural information processing systems}, 30, 2017.
+
+\bibitem{schmid2011geoadditive}
+M.~Schmid, T.~Hothorn, K.~O. Maloney, D.~E. Weller, and S.~Potapov.
+\newblock Geoadditive regression modeling of stream biological condition.
+\newblock {\em Environmental and Ecological Statistics}, 18:709--733, 2011.
+
+\bibitem{scholkopf2001generalized}
+B.~Sch{\"o}lkopf, R.~Herbrich, and A.~J. Smola.
+\newblock A generalized representer theorem.
+\newblock In {\em Computational Learning Theory: 14th Annual Conference on
+  Computational Learning Theory, COLT 2001 and 5th European Conference on
+  Computational Learning Theory, EuroCOLT 2001 Amsterdam, The Netherlands, July
+  16--19, 2001 Proceedings 14}, pages 416--426. Springer, 2001.
+
+\bibitem{sigrist2021ktboost}
+F.~Sigrist.
+\newblock Ktboost: Combined kernel and tree boosting.
+\newblock {\em Neural Processing Letters}, 53(2):1147--1160, 2021.
+
+\end{thebibliography}

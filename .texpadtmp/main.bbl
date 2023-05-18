@@ -1,0 +1,13 @@
+\begin{thebibliography}{1}
+
+\bibitem{axler2020measure}
+S.~Axler.
+\newblock {\em Measure, integration \& real analysis}.
+\newblock Springer Nature, 2020.
+
+\bibitem{friedman2001greedy}
+J.~H. Friedman.
+\newblock Greedy function approximation: a gradient boosting machine.
+\newblock {\em Annals of statistics}, pages 1189--1232, 2001.
+
+\end{thebibliography}

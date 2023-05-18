@@ -1,0 +1,102 @@
+\PassOptionsToPackage{table}{xcolor}
+\usepackage{amsmath}
+\usepackage{tikz}
+
+\usepackage{amssymb,latexsym}\usepackage{amsxtra}
+\usepackage{amsthm}
+\usepackage{booktabs} % Required for top, mid and bottom rules
+
+
+\usepackage[ruled, linesnumbered, vlined]{algorithm2e} % algorithm
+%\usepackage{xcolor,colortbl}
+\usepackage{graphicx}
+
+
+\usepackage{setspace}
+\usepackage{pdfpages}
+%\usepackage{verbatim} 
+%\usepackage[outputdir=.texpadtmp]{minted}
+%\usepackage[skins]{tcolorbox}
+%\tcbuselibrary{skins,theorems}
+%\tcbuselibrary{breakable}
+
+
+%----------------------
+
+\usepackage{hyperref}
+\hypersetup{
+    colorlinks=true,
+    linkcolor=black,
+    filecolor=magenta,      
+    urlcolor=cyan,
+    pdftitle={Overleaf Example},
+    pdfpagemode=FullScreen,
+    }
+\urlstyle{same}
+
+\newcommand{\C}[1]{\begin{CJK}{UTF8}{gkai} #1\end{CJK}}
+
+
+\setlength{\arrayrulewidth}{0.5mm} %This sets the thickness of the borders of the table
+%\setlength{\tabcolsep}{18pt}
+\renewcommand{\arraystretch}{1.6} 
+
+%-----------------------------------------------------------------------------%
+\theoremstyle{definition}
+\newtheorem{Definition}{Defintion}
+\newtheorem{Theorem}[Definition]{Theorem}
+\newtheorem{Example}[Definition]{Example}
+
+\newtheorem{remark}{Remark}[subsection]
+\newtheorem{Lemma}{Lemma}[section]
+\newtheorem{Corollary}{Corollary}[section]
+
+\newtheorem{Proposition}[Definition]{Proposition}
+
+\linespread{1.5}
+
+
+\newcommand{\bfw}[1]{\textbf{\textcolor{white}{#1}}}
+
+\newcommand{\df}{\displaystyle \frac} 
+\newcommand{\dlim}{\displaystyle \lim}
+\newcommand{\dint}{\displaystyle \int}
+\newcommand{\ra}{\rangle}
+\newcommand{\la}{\langle}
+\newcommand{\inner}[2]{{\langle #1,#2\rangle}}
+\newcommand{\x}{\mathbf{x}}
+\newcommand{\xt}{\mathbf{x}^{\mathsf{T}}}
+\newcommand{\T}{{\mathsf{T}}}
+\newcommand{\abf}{\mathbf{a}}
+\newcommand{\abft}{\mathbf{a}^{\mathsf{T}}}
+\newcommand{\R}{\mathbb{R}}
+\newcommand{\E}{\mathrm{e}}
+\newcommand{\F}{\mathbb{F}}
+\newcommand{\X}{\mathbf{X}}
+\newcommand{\Y}{\mathbf{Y}}
+\newcommand{\y}{\mathbf{y}}
+\renewcommand{\l}{\mathcal{l}}
+
+\newcommand{\z}{\mathbf{z}}
+\newcommand{\Z}{\mathbf{Z}}
+\newcommand{\bfi}{\mathbf{i}}
+\newcommand{\bftheta}{\bm{\theta}}
+\newcommand{\rmvec}{\mathrm{vec}}
+\newcommand{\argmin}{\mathop{\arg\min}}
+\newcommand{\argmax}{\mathop{\arg\max}}
+\newcommand{\f}{\mathbf{f}}
+\newcommand{\U}{\mathbf{u}}
+\newcommand{\D}{\mathrm{d}}
+\newcommand{\MCG}{\mathcal{G}}
+\newcommand{\MCH}{\mathcal{H}}
+\newcommand{\MCF}{\mathcal{F}}
+\newcommand{\M}{\mathcal{M}}
+\newcommand{\W}{\mathbf{W}}
+\newcommand{\bfb}{\mathbf{b}}
+\newcommand{\MCB}{\mathcal{B}}
+\newcommand{\MCT}{\mathcal{T}}
+\newcommand{\LL}{\mathcal{L}}
+\newcommand{\nullspace}{\mathrm{null}}
+\newcommand{\tr}{\mathrm{tr}}
+\newcommand{\range}{\mathrm{range}}
+\newcommand{\listofalgorithmes}{\tocfile{\listalgorithmcfname}{loa}}
